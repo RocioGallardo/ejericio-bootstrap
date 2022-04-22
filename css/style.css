@@ -14,7 +14,7 @@
 body{
     Background: linear-gradient(0deg,#18111f, #140d1a)
 }
-/* NAVEGADOR */
+/* NAVEGADOR TODAS LAS PAGINAS*/
 
 .nav-css{
     position: fixed;
@@ -57,6 +57,16 @@ body{
 .perfil-iniciar:hover{
     background-color: #ffd452;
     color: white;
+}
+
+/* TITULOS TODAS LAS PAGINAS */
+
+.titulo-contacto, .titulo-sobre-nosotros, .titulo-proximos-torneos, .titulo-reglamento {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    padding-top: 150px;
+    color: #ffd452;
+    text-align: center;
 }
 
 /* FOOTER PARA TODAS LAS PÁGINAS, */
@@ -209,6 +219,7 @@ label{
 /* SECCION REGLAMENTOS */
 
 .article-reglamento{
+    padding-top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,7 +251,7 @@ label{
     text-align: justify;
 }
 
-/* GRID NOTAS SOBRE NOSOTROS */
+/*  NOTAS SOBRE NOSOTROS */
 
 .h2-notas{
     margin-top: 50px;
@@ -248,7 +259,11 @@ label{
     color: #ffd452;
     font-size: 30px;
 }
-
+.h3-notas{
+    margin: 20px auto;
+    width: 90%;
+    font-size: 15px;
+}
 .nota-1, .nota-2, .nota-3{
     background-color: #18111f;
     border-radius: 20px;
@@ -260,11 +275,7 @@ label{
     width: 100%;
     border-radius: 20px;
 }
-.h3-notas{
-    margin: 20px auto;
-    width: 90%;
-    font-size: 15px;
-}
+
 .p-web-nota{
     padding-bottom: 20px;
 }
@@ -309,15 +320,7 @@ label{
     color: white;
 }
 
-/* TODAS LAS PAGINAS */
 
-.titulo-contacto, .titulo-sobre-nosotros, .titulo-proximos-torneos, .titulo-reglamento {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 70px;
-    padding-top: 150px;
-    color: #ffd452;
-    text-align: center;
-}
 
 /* vista mobile */
 
@@ -330,18 +333,8 @@ label{
         width: auto;
         font-size: 50px;
     }
-    .section-notas{
-        width: 60%;
-        margin: 50px auto;
-        display: flex;
-        flex-direction: column;
-    }
 
-}
 
-@media screen and (max-width: 900px){
-
-}
 
 /*  PALETA DE COLORES
 color1 { #140d1a };
